@@ -106,6 +106,9 @@ function addItemOnAction() {
     console.log(txtmaDate);
     console.log(txtExpdate);
 
+
+    
+
     //let item = {}
 
     itemList.push(
@@ -137,6 +140,8 @@ function addItemOnAction() {
         
         `
     }
+
+    
 
     console.log(body);
     document.getElementById("tblItem").innerHTML = body;
